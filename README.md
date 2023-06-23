@@ -1,18 +1,18 @@
-### Example of a C file beign compiled step by step
+# Example of a C file beign compiled step by step
 ## Steps
-# Prepocessing
+### Prepocessing
 ```bash
  gcc -E example.c -o example.i
 ```
-# Compiling
+### Compiling
 ```bash
  gcc -S example.i -o example.s
 ```
-# Assembling
+### Assembling
 ```bash
  gcc -c example.s -o example.o
 ```
-# Linking
+### Linking
 ```bash
  gcc -c example.o -o example.exe
 ```
