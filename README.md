@@ -1,4 +1,4 @@
-# Example of a C file beign compiled step by step
+# Example of a C file being compiled step by step
 ## Steps
 ### Prepocessing
 ```bash
